@@ -23,6 +23,7 @@ img {
 
 .shinkolite-logo-box {
     width: 280px;
+    margin-right: 30px;
 }
 
 .shinkolite-logo {
@@ -44,7 +45,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 25px 10px;
+    padding: 25px 30px;
 
     color: white;
     font-weight: 300;
@@ -64,7 +65,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    text-align: left;
     line-height: 23px;
 
 }
@@ -75,6 +76,7 @@ img {
 
 .p1 {
     width: 100%;
+    
 }
 
 .intro {
@@ -85,7 +87,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 90px 0px;
+    padding: 90px 15px;
 
     text-align: center;
 }
@@ -114,7 +116,7 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    padding: 70px 0px;
+    padding: 70px 15px;
     text-align: center;
 }
 
@@ -145,16 +147,16 @@ img {
     left: 80px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    padding: 30px 50px;
+    padding: 2vw 3vw;
     font-weight: 300;
 }
 
 .p2-2-header-1 {
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .p2-2-header-2 {
-    font-size: 60px;
+    font-size: 4vw;
 }
 
 .p2-1, .p2-2 {
@@ -201,6 +203,7 @@ img {
 .properties-icon-content {
     font-size: 22px;
     font-weight: 300;
+    
 }
 
 .qualification {
@@ -371,4 +374,33 @@ img {
     background-color: black;
     color: white;
     padding: 50px 30px;
+}
+
+
+@media (max-width: 800px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 15px;
+        column-gap: 15px;
+        width: 1050px;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 16px;
+        
+    }
+
+
+.properties-grid {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    padding: 100px 10px;
+}
+
+    
 }
